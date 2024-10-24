@@ -32,9 +32,6 @@ the sum is a+b
 >>> #.format()
 >>> a="sita"
 >>> b="ram"
->>> print(hello {}{}".format(a,b))
-...       
-SyntaxError: unterminated string literal (detected at line 1)
 >>> print("hello {}{}".format(a,b))
       
 hello sitaram
@@ -170,17 +167,8 @@ b
       
 [15, 8, 8, 6, 4, 2, 0]
 a=["code","codegnan","course"]
-      
-a.remove()
-      
-Traceback (most recent call last):
-  File "<pyshell#77>", line 1, in <module>
-    a.remove()
-TypeError: list.remove() takes exactly one argument (0 given)
-a.remove("code")
-      
-a
-      
+a.remove("code")     
+a    
 ['codegnan', 'course']
 #pop()
       
@@ -237,29 +225,8 @@ len(b)
 1
 a=["python","java","c","c++"]
       
-a.count("java")
-      
+a.count("java")    
 1
-a=[0,1,2,3,5]
-      
-a.sorted()
-      
-Traceback (most recent call last):
-  File "<pyshell#104>", line 1, in <module>
-    a.sorted()
-AttributeError: 'list' object has no attribute 'sorted'. Did you mean: 'sort'?
-b=sorted()
-      
-Traceback (most recent call last):
-  File "<pyshell#105>", line 1, in <module>
-    b=sorted()
-TypeError: sorted expected 1 argument, got 0
-sorted(True)
-      
-Traceback (most recent call last):
-  File "<pyshell#106>", line 1, in <module>
-    sorted(True)
-TypeError: 'bool' object is not iterable
 a="python"
       
 len(a)
@@ -288,15 +255,8 @@ type(a)
 a.count(6.7)
       
 1
-len(a)
-      
+len(a)  
 6
-s.index(5+8j)
-      
-Traceback (most recent call last):
-  File "<pyshell#119>", line 1, in <module>
-    s.index(5+8j)
-NameError: name 's' is not defined
 a.index(5+8j)
       
 3
